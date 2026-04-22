@@ -1,0 +1,21 @@
+name: sds210-project
+channels:
+  - conda-forge
+
+dependencies:
+  # Core
+  - python=3.14          # stable version pinned, conda-forge will resolve compatible versions of the packages below
+
+  # Notebook environment
+  - jupyterlab
+  - ipykernel
+  - jupyterlab_widgets
+
+  # To load .env
+  - python-dotenv
+  
+  # Geospatial stack
+  - geopandas
+
+  # Interactive maps
+  - folium
