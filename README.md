@@ -72,4 +72,13 @@ Run the following commands to start the jupyterlab server. The jupyter interface
 
 ## Notebooks execution
 
+Run the notebooks in the following order:
+
+1. `data_download.ipynb`
+2. `data_processing.ipynb`
+3. `data_visualization.ipynb`
+
+>[!note]
+>if you want to reproduce the exact same map generated for the project, replace `DATE = datetime.datetime.now()` with DATE = `datetime.datetime.fromisoformat("2026-05-02")` in the first cell of the `data_download` notebook.
+
 ## License
