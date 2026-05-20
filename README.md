@@ -81,4 +81,21 @@ Run the notebooks in the following order:
 >[!note]
 >if you want to reproduce the exact same map generated for the project, replace `DATE = datetime.datetime.now()` with DATE = `datetime.datetime.fromisoformat("2026-05-02")` in the first cell of the `data_download` notebook.
 
+## Data sources
+
+### Wildfire data
+From [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/). Released under the [CC0 license]( https://creativecommons.org/publicdomain/zero/1.0/).
+
+NASA VIIRS Land Science Team. (2020). _VIIRS (S-NPP) I Band 375 m Active Fire Product NRT (Vector data)_ [Data set]. NASA LANCE MODIS at the MODAPS. https://doi.org/10.5067/FIRMS/VIIRS/VNP14IMGT_NRT.002
+
+### Countries boundaries vector data
+From [geoboundaries](geoboundaries.org). Released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) / Modified: geometries have been simplified using `geopandas.simplify_coverage()`, merged with Wordlbank Surface Area dataset.
+
+Runfola, D. et al. (2020) geoBoundaries: A global database of political administrative boundaries. PLoS ONE 15(4): e0231866. https://doi.org/10.1371/journal.pone.0231866
+
+### Countries surface area
+From [World Bank](https://data360.worldbank.org/en/indicator/WB_WDI_AG_SRF_TOTL_K2?view=map&mapType=country). Released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) / Modified: merged with the countries boundaries dataset, computed new attribute wildfire percentage area from country area and FIRMS data.
+
+FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO)
+
 ## License
