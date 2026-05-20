@@ -4,13 +4,24 @@ Project description.
 
 ## Setup
 
-First, clone this repository and change the working directory into it:
+**1.** Clone this repository and change the working directory into it:
 
 ```
 git clone https://github.com/5North/sds210-project.git
 cd sds210-project
 ```
-Then you will need to setup your environment. You can use either [conda](https://conda.org/) or [uv](https://docs.astral.sh/uv/).
+
+**2.** You will need a [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) api key to download the wildfire data. You can get one for free from [there](https://firms.modaps.eosdis.nasa.gov/api/map_key). Be mindful of the api request limit.
+
+**3.** Create an file named `.env` in the root folder of the project and replace `example_key` with your own api key:
+
+```
+FIRM_API_KEY="example_key"
+```
+`.env.example` is provided as an example for the `.env` file.
+
+**4.** Setup your environment. You can use either [conda](https://conda.org/) or [uv](https://docs.astral.sh/uv/).
+
 
 ### Conda
 
