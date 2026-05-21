@@ -63,12 +63,12 @@ Run the following commands to start the jupyterlab server. The jupyter interface
 
   ```
   conda activate sds210-project
-  jupyterlab
+  jupyter-lab
   ```
 
 **uv**
 
-`uv run jupyterlab`
+`uv run jupyter-lab`
 
 ## Notebooks execution
 
