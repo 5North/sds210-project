@@ -9,7 +9,6 @@ dependencies:
   # Notebook environment
   - jupyterlab
   - ipykernel
-  - jupyterlab_widgets
 
   # To load .env
   - python-dotenv
