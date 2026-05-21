@@ -89,7 +89,7 @@ From [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/). Released under the [CC
 NASA VIIRS Land Science Team. (2020). _VIIRS (S-NPP) I Band 375 m Active Fire Product NRT (Vector data)_ [Data set]. NASA LANCE MODIS at the MODAPS. https://doi.org/10.5067/FIRMS/VIIRS/VNP14IMGT_NRT.002
 
 ### Countries boundaries vector data
-From [geoboundaries](geoboundaries.org). Released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) / Modified: geometries have been simplified using `geopandas.simplify_coverage()`, merged with Wordlbank Surface Area dataset.
+From [geoboundaries](https://geoboundaries.org). Released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) / Modified: geometries have been simplified using `geopandas.simplify_coverage()`, merged with Wordlbank Surface Area dataset.
 
 Runfola, D. et al. (2020) geoBoundaries: A global database of political administrative boundaries. PLoS ONE 15(4): e0231866. https://doi.org/10.1371/journal.pone.0231866
 
