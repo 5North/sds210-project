@@ -21,3 +21,4 @@ dependencies:
 
   # Interactive maps
   - folium
+  - jenkspy
