@@ -97,5 +97,3 @@ Runfola, D. et al. (2020) geoBoundaries: A global database of political administ
 From [World Bank](https://data360.worldbank.org/en/indicator/WB_WDI_AG_SRF_TOTL_K2?view=map&mapType=country). Released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) / Modified: merged with the countries boundaries dataset, computed new attribute wildfire percentage area from country area and FIRMS data.
 
 FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO)
-
-## License
