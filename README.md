@@ -11,7 +11,7 @@ git clone https://github.com/5North/sds210-project.git
 cd sds210-project
 ```
 ### Api Key
->[!note]
+>[!important]
 >You need a [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) api key to download the wildfire data. You can get one for free from [there](https://firms.modaps.eosdis.nasa.gov/api/map_key). Be mindful of the api request limit.
 
 Create an file named `.env` in the root folder of the project and replace `example_key` with your own api key:
@@ -78,7 +78,7 @@ Run the notebooks in the following order:
 2. `data_processing.ipynb`
 3. `data_visualization.ipynb`
 
->[!important]
+>[!note]
 >The notebooks already default to the date used in the project for data donwload and processing. If you want to visualize the last data available, use `DATE = datetime.datetime.now()` instead of DATE = `datetime.datetime.fromisoformat("2026-05-02")` in the first cell of the `data_download` notebook. You would also need to assign the variable `DATE` in the first cell of `data_processing.ipynb` to the date of the VIIRS file you want to load and process.
 
 ## Data sources
