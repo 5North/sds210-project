@@ -79,7 +79,7 @@ Run the notebooks in the following order:
 3. `data_visualization.ipynb`
 
 >[!important]
->if you want to reproduce the exact same map generated for the project, replace `DATE = datetime.datetime.now()` with DATE = `datetime.datetime.fromisoformat("2026-05-02")` in the first cell of the `data_download` notebook. You also need to assign the variable date in the first cell of `data_processing.ipynb` to the date of the VIIRS file you want to load and process.
+>The notebooks already default to the date used in the project for data donwload and processing. If you want to visualize the last data available, use `DATE = datetime.datetime.now()` instead of DATE = `datetime.datetime.fromisoformat("2026-05-02")` in the first cell of the `data_download` notebook. You would also need to assign the variable `DATE` in the first cell of `data_processing.ipynb` to the date of the VIIRS file you want to load and process.
 
 ## Data sources
 
