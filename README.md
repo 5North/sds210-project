@@ -1,6 +1,6 @@
 # SDS210 project
 
-Project description.
+This project is part of the SDS210 course at University of Zürich. It aims to investigate which countries in the world have been more affected by wildfires in the last 14 days (as of 02-05-2026) in terms of percentage of wildfire-affected area (relative to total area) and total wildfire-affected area.
 
 ## Setup
 
