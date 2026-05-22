@@ -9,7 +9,9 @@ sds210-project/
 ├── data                        # where downloaded and processed data is saved. Not tracked by git.
     ├── raw
     └── processed
+├── .env.example                # example env file for FIRMS api key
 ├── environment.yml             # conda environment config file
+├── .gitignore          
 ├── LICENSE                     # repo license
 ├── notebooks/
 │   ├── data_download.ipynb
