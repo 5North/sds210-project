@@ -37,7 +37,7 @@ cd sds210-project
 > [!important]
 > You need a [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) api key to download the wildfire data. You can get one for free from [there](https://firms.modaps.eosdis.nasa.gov/api/map_key). Be mindful of the api request limit.
 
-Create an file named `.env` in the root folder of the project and replace `example_key` with your own api key:
+Create a file named `.env` in the root folder of the project and replace `example_key` with your own api key:
 
 ```
 FIRM_API_KEY="example_key"
