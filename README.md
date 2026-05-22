@@ -62,7 +62,7 @@ You can find instructions to install conda [here](https://docs.conda.io/en/lates
 You can then setup the conda environment by running:
 
 ```
-conda create --name sds210-project --file environment.yml
+conda env create --name sds210-project --file environment.yml
 ```
 
 #### uv
