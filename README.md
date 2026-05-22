@@ -82,7 +82,7 @@ uv sync
 ### Start the Jupyter Server
 
 > [!NOTE]
-> If you want to use an IDE instead of the jupyterlab interface, you already probably know what to do.
+> If you want to use an IDE instead of the jupyterlab interface, you already probably know what to do instead.
 
 Run the following commands to start the jupyterlab server. The jupyter interface will open in a new browser tab.
 
